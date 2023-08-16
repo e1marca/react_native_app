@@ -1,0 +1,15 @@
+export enum MainScreens {
+  HOME_SCREEN = "HOME_SCREEN",
+  CATEGORY_SCREEN = "CATEGORY_SCREEN",
+  PRODUCT_DETAIL_SCREEN = "PRODUCT_DETAIL_SCREEN",
+  ORDER_DETAILS_SCREEN = "ORDER_DETAILS_SCREEN",
+}
+
+const { HOME_SCREEN, PRODUCT_DETAIL_SCREEN, CATEGORY_SCREEN, ORDER_DETAILS_SCREEN } = MainScreens;
+
+export type MainScreenStackParamList = {
+  [HOME_SCREEN]: undefined;
+  [CATEGORY_SCREEN]: { categoryId: string };
+  [PRODUCT_DETAIL_SCREEN]: { itemId: string };
+  [ORDER_DETAILS_SCREEN]: undefined;
+};
