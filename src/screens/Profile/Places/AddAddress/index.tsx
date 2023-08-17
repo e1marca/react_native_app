@@ -308,7 +308,7 @@ const AddressSearch: React.FC<AddressSearchProps> = ({ onSearch }) => {
           }
         }}
         query={{
-          key: "AIzaSyC1RGVwxD-VBN8_XqJpuzt_jBcTXCvMqGI",
+          key: "AIzaSyC1RGVwxD-VN8_XqJpuzt_jBcTXCvMqGnI",
           language: "ru",
         }}
       />
